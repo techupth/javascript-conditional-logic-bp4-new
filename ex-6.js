@@ -4,7 +4,7 @@ function addFavoriteBook(bookName) {
   // Start coding here !
 
   if (bookName.includes("Beauty")) {
-    favoriteBooks = favoriteBooks + bookName+",";
+    favoriteBooks.push(bookName);
   }
 }
 
